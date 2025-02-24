@@ -1052,6 +1052,32 @@ section .container {
   background: #15bb62;
 }
 
+/* Ensure the contact section aligns properly */
+.contact .contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .info-box {
+  flex: 1; /* Makes all boxes equal width */
+  margin: 10px; /* Adds spacing between sections */
+}
+
+/* Ensure Email box appears in the middle */
+.contact .email-box {
+  order: 2;
+}
+
+.contact .social-profiles {
+  order: 1;
+}
+
+.contact .contact-box {
+  order: 3;
+}
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
