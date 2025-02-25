@@ -904,7 +904,7 @@ section .container {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     margin-left: 5px; /* Moves title closer to the image */
     padding-bottom: 5px;
 }
