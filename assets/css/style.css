@@ -858,15 +858,20 @@ section .container {
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
-  z-index: 4;
+  z-index: 5;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   font-size: 28px;
   display: inline-block;
-  transition: 0.3s;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
