@@ -735,6 +735,7 @@ section .container {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   flex: 1 1 calc(33.333% - 20px); /* 3 items per row */
     max-width: 33.333%;
@@ -858,20 +859,15 @@ section .container {
 
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
-  z-index: 5;
+  z-index: 4;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   font-size: 28px;
   display: inline-block;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -921,7 +917,6 @@ section .container {
     gap: 20px; /* Ensures even spacing between elements */
     align-items: stretch;
 }
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
